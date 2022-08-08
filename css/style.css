@@ -151,8 +151,8 @@ main{
 
 #icon__pag{
     border-radius: 100%;
-    width: 350px;
-    margin-top: -10px;
+    width: 200px;
+    margin-top: 50px;
     position: relative;
     filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
 }
@@ -194,7 +194,7 @@ main{
     margin-top: -150px;
     opacity: 0.5;
 }
-@media (max-width: 1200px){
+@media (max-width: 1024px){
     .container__header, main{
         padding: 50px;
     }
@@ -231,13 +231,40 @@ main{
         height: 235px;
     }
     .text__information-cover h1{
-        font_size: 40px;
+        font-size: 40px;
     }
     .text__information-cover p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .banner__text h2{
-        font-size: 22;
+        font-size: 15;
     }
-    #icon__pag
+    #icon__pag{
+        left: -60px;
+    }
+    .banner__icon-pag{
+        right: -20px;
+    }
+}
+@media (max-width: 920px){
+    .text__information-cover{
+        width: 100%;
+    }
+    .media__cover{
+        display: none;
+    }
+    .banner{
+        height: auto;
+        flex-wrap: wrap;
+    }
+    #icon__pag2{
+        display: none;
+    }
+    #icon__pag{
+        left: 0;
+    }
+    .banner__text{
+        width: 100%;
+        margin-top: -50px;
+    }
 }
