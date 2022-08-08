@@ -194,7 +194,7 @@ main{
     margin-top: -150px;
     opacity: 0.5;
 }
-@media (max-width: 1200px){
+@media (max-width: 1024px){
     .container__header, main{
         padding: 50px;
     }
@@ -240,8 +240,30 @@ main{
         font-size: 22;
     }
     #icon__pag{
+        left: -60px;
+        width: 150px;
+    }
+    .banner__icon-pag{
+        right: -20px;
+    }
+}
+@media (max-width: 920px){
+    .text__information-cover{
+        width: none;
+    }
+    .media__cover{
+        display: none;
+    }
+    .banner{
+        height: auto;
+        flex-wrap: auto;
+    }
+    #icon__pag2{
+        display: none;
+    }
+    #icon__pag{
         height: 0;
-        z-index: 3;
+        
     }
     .banner__text{
         width: 100%;
