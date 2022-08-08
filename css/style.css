@@ -64,7 +64,7 @@ header{
 }
 .btn__header-register:hover,
 .btn__register-cover:hover{
-    background: #084ae3;
+    background: #00d049;
     color: #000;
 }
 
@@ -164,7 +164,7 @@ main{
 
 .banner__text h2{
     color: #fff;
-    font-size: 34px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -178,7 +178,7 @@ main{
     transition: color 300ms;
 }
 .banner__text a:hover{
-    color: #084ae3;
+    color: #00d049;
 }
 
 .banner__icon-pag2{
@@ -230,4 +230,14 @@ main{
     .mostrar_menu{
         height: 235px;
     }
+    .text__information-cover h1{
+        font_size: 40px;
+    }
+    .text__information-cover p{
+        font-size: 16px;
+    }
+    .banner__text h2{
+        font-size: 22;
+    }
+    #icon__pag
 }
