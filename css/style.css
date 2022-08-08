@@ -239,5 +239,12 @@ main{
     .banner__text h2{
         font-size: 22;
     }
-    #icon__pag
+    #icon__pag{
+        height: 0;
+        z-index: 3;
+    }
+    .banner__text{
+        width: 100%;
+        margin-top: -100px;
+    }
 }
